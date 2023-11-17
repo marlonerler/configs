@@ -1,15 +1,10 @@
 #!/bin/sh
 
-apk add\
+sudo apt install\
 	vim\
 	git\
 	curl\
 	#
 	tmux\
-	#
-	nodejs\
-	npm\
-	python3
 
-npm install -g\
-	typescript
+curl -fsSL https://deno.land/x/install/install.sh | sh
