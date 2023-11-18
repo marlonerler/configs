@@ -9,9 +9,10 @@ sudo apt install -y\
 	openssh-server\
 
 ssh-keygen
-cat ~/.ssh/id-rsa.pub
 
 git config --global user.name marlonerler
 git config --global user.email viridian035@gmail.com
 
 curl -fsSL https://bun.sh/install | bash
+
+cat ~/.ssh/id_rsa.pub
