@@ -1,10 +1,10 @@
 #!/bin/sh
 
-sudo apt install\
+sudo apt install -y\
 	vim\
 	git\
 	curl\
-	#
 	tmux\
+	unzip\
 
-curl -fsSL https://deno.land/x/install/install.sh | sh
+curl -fsSL https://bun.sh/install | bash
