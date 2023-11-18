@@ -1,4 +1,4 @@
-export PATH=$PATH:/home/lvm/.bun/bin
+export PATH=$PATH:/home/lvm/.bun/bin:/home/lvm/.deno/bin
 
 cmt() {
 	git add .
