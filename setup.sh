@@ -20,6 +20,7 @@ pip3 install\
 
 npm install -g\
 	esbuild\
+	typescript\
 	basic-html-templates\
 	@types/node\
 
