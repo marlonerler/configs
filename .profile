@@ -31,10 +31,11 @@ run() {
 
 # Tools
 msg() {
+	old=$PWD
 	cd ~/Private/TextTransfer
 	vim message
 	run
-	cd
+	cd $old
 	clear
 	echo done
 }
