@@ -1,5 +1,6 @@
 export PATH=$PATH:/home/lvm/.bun/bin:/home/lvm/.deno/bin
 
+# General
 cmt() {
 	git add .
 	git commit -m "$1"
@@ -25,4 +26,13 @@ run() {
 	echo
 	
 	node out.js
+}
+
+# Tools
+srv() {
+	cd ~/Private/TextTransfer
+	vim message
+	run
+	cd
+	echo done
 }
