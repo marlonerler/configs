@@ -10,9 +10,11 @@ init() {
 	mkdir $1
 	cd $1
 	npm init -y
-	npm link @types/node
-	npm link basic-html-templates
-	npm link busboy
+	npm link\
+		@types/node\
+		basic-html-templates\
+		npm link busboy\
+
 	touch index.ts
 }
 
