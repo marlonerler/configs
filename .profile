@@ -12,6 +12,7 @@ init() {
 	npm init -y
 	npm link @types/node
 	npm link basic-html-templates
+	npm link formidable
 	touch index.ts
 }
 
@@ -32,7 +33,7 @@ run() {
 # Tools
 msg() {
 	old=$PWD
-	cd ~/Private/TextTransfer
+	cd ~/Private/Messaging
 	vim message
 	run
 	cd $old
