@@ -20,6 +20,7 @@ pip3 install\
 
 npm install -g\
 	esbuild\
+	basic-html-templates\
 	@types/node\
 
 # git

@@ -11,6 +11,7 @@ init() {
 	cd $1
 	npm init -y
 	npm link @types/node
+	npm link basic-html-templates
 	touch index.ts
 }
 
