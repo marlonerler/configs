@@ -10,6 +10,8 @@ bld() {
 }
 
 run() {
+	clear
+	
 	bld
 	echo "-- BUILD COMPLETE --"
 	echo
