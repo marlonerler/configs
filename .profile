@@ -12,7 +12,7 @@ init() {
 	npm init -y
 	npm link @types/node
 	npm link basic-html-templates
-	npm link formidable
+	npm link busboy
 	touch index.ts
 }
 
