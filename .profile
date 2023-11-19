@@ -34,5 +34,6 @@ srv() {
 	vim message
 	run
 	cd
+	clear
 	echo done
 }
