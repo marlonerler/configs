@@ -14,7 +14,7 @@ init() {
 }
 
 bld() {
-	esbuild index.ts --bundle --outfile=out.js
+	esbuild index.ts --bundle --outfile=out.js --platform=node
 }
 
 run() {
