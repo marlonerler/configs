@@ -11,5 +11,8 @@ bld() {
 
 run() {
 	bld
+	echo "-- BUILD COMPLETE --"
+	echo
+	
 	node out.js
 }
