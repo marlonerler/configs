@@ -8,7 +8,7 @@ cmt() {
 init() {
 	mkdir $1
 	cd $1
-	npm init
+	npm init -y
 	npm link @types/node
 	touch index.ts
 }
