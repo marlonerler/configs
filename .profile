@@ -29,7 +29,7 @@ run() {
 }
 
 # Tools
-srv() {
+msg() {
 	cd ~/Private/TextTransfer
 	vim message
 	run
