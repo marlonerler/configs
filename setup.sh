@@ -13,6 +13,7 @@ sudo apk add\
 	nodejs\
  	npm\
   	python3\
+	py3-pip\
 
 pip3 install ytmdl
 npm install -g esbuild
