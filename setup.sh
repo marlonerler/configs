@@ -12,6 +12,9 @@ sudo apk add\
 	unzip\
 	nodejs\
  	npm\
+  	python3\
+
+pip3 install ytmdl
 
 # git
 clear; echo "configuring git..."
