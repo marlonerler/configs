@@ -15,6 +15,7 @@ sudo apk add\
   	python3\
 
 pip3 install ytmdl
+npm install -g esbuild
 
 # git
 clear; echo "configuring git..."
