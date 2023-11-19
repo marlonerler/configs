@@ -5,6 +5,14 @@ cmt() {
 	git commit -m "$1"
 }
 
+init() {
+	mkdir $1
+	cd $1
+	npm init
+	npm link @types/node
+	touch index.ts
+}
+
 bld() {
 	esbuild index.ts --bundle --outfile=out.js
 }
