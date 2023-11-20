@@ -24,6 +24,7 @@ npm install -g\
 	busboy\
 	basic-html-templates\
 	@types/node\
+	@types/busboy\
 
 # git
 clear; echo "configuring git..."
