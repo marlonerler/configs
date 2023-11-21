@@ -43,3 +43,8 @@ msg() {
 	clear
 	echo done
 }
+
+fle() {
+	cd ~/Private/Files
+	run
+}
