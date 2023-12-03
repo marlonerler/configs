@@ -5,6 +5,7 @@ vim /etc/apk/repositories
 
 clear; echo "installing packages..."
 sudo apk add\
+	bash\
 	vim\
 	git\
 	curl\
@@ -14,6 +15,7 @@ sudo apk add\
  	npm\
   	python3\
 	py3-pip\
+	ffmpeg\
 
 pip3 install\
 	ytmdl\
