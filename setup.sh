@@ -1,10 +1,10 @@
 #!/bin/sh
 
 # base
-vim /etc/apk/repositories
+vi /etc/apk/repositories
 
 clear; echo "installing packages..."
-sudo apk add\
+apk add\
 	bash\
 	vim\
 	git\
