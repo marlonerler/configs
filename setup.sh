@@ -23,10 +23,9 @@ pip3 install\
 npm install -g\
 	esbuild\
 	typescript\
-	busboy\
-	basic-html-templates\
+	express\
 	@types/node\
-	@types/busboy\
+	@types/express
 
 # git
 clear; echo "configuring git..."

@@ -11,10 +11,9 @@ init() {
 	cd $1
 	npm init -y
 	npm link\
-		basic-html-templates\
-		busboy\
+		express\
 		@types/node\
-		@types/busboy\
+		@types/express\
 
 	touch index.ts
 }
