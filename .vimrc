@@ -12,4 +12,5 @@ endfunction
 
 function SetupCoc()
 CocInstall coc-tsserver
+CocInstall coc-css
 endfunction
