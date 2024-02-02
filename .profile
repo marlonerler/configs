@@ -10,7 +10,7 @@ init() {
 	mkdir $1
 	cd $1
 	npm init -y
-	npm link\
+	npm install\
 		express\
 		@types/node\
 		@types/express\
@@ -30,20 +30,4 @@ run() {
 	echo
 	
 	node out.js
-}
-
-# Tools
-msg() {
-	old=$PWD
-	cd ~/Private/Messaging
-	vim message
-	run
-	cd $old
-	clear
-	echo done
-}
-
-fle() {
-	cd ~/Private/Files
-	run
 }
