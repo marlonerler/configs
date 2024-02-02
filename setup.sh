@@ -1,7 +1,12 @@
 #!/bin/sh
 
 # base
-vi /etc/apk/repositories
+# files
+clear; echo "copying files..."
+cp .tmux.conf ~
+cp .vimrc ~
+cp .profile ~
+echo "files copied."
 
 clear; echo "installing packages..."
 apk add\
@@ -16,9 +21,7 @@ apk add\
   	python3\
 	py3-pip\
 	ffmpeg\
-
-pip3 install\
-	ytmdl\
+	openssh\
 
 npm install -g\
 	esbuild\
@@ -39,14 +42,7 @@ curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
 
 clear; echo "please set up vim"
 sleep 2
-vim .vimrc
-
-# files
-clear; echo "copying files..."
-cp .tmux.conf ~
-cp .vimrc ~
-cp .profile ~
-echo "files copied."
+vim ~/.vimrc
 
 # ssh
 clear; echo "setting up ssh key..."
