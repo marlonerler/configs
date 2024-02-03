@@ -1,5 +1,3 @@
-export PATH=$PATH:/home/lvm/.bun/bin:/home/lvm/.deno/bin
-
 # General
 cmt() {
 	git add .
