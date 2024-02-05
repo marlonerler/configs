@@ -29,6 +29,8 @@ npm install -g\
 	express\
 	@types/node\
 	@types/express
+	
+curl -fsSL https://install.julialang.org | sh
 
 # git
 clear; echo "configuring git..."
